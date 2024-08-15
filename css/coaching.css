@@ -102,4 +102,67 @@ header {
     opacity: 1;
 }
 
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    margin: 0;
+    color: #333;
+    font-size: 24px;
+}
+
+.card-content .title {
+    color: #777;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card-content p {
+    color: #555;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.contact-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3;
+}
+
+
 /*-----------------------------------------------------------------------------------------------------------------------------------*\
