@@ -104,65 +104,110 @@ header {
 
 
 
+
+
+
 .container {
     display: flex;
-    justify-content: center;
+    min-height: 100vh;
+    
+    
+}
+
+.sidebar {
+    background-color: #18475e;
+    color: #fff;
+    width: 150px;
+    margin: 60px;
+    padding: 20px;
+    border-radius: 50px;   
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 15px 0;
+    display: flex;
     align-items: center;
-    height: 100%;
-    width: 100%;
+
+}
+
+.sidebar nav ul li img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+
 }
 
 .card {
-    margin: 20px;
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 350px;
-    text-align: center;
-}
-
-.profile-image img {
-    width: 100%;
-    height: auto;
-}
-
-.card-content {
+    margin: 20px 0;
     padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: flex-start;
+    border-radius: 70px;
+    border: 2px;
+    border-left: 5px #18475e;
 }
 
-.card-content h2 {
+.blog-square {
+    background-color: #18475e;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 60px;
+    color: aliceblue;
+}
+
+.coach-info {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    
+}
+
+.coach-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+   
+}
+
+.coach-info .info {
+    flex: 1;
+    
+}
+
+h2, h3 {
     margin: 0;
-    color: #333;
-    font-size: 24px;
+    padding: 0 0 10px 0;
+    font-weight: normal;
 }
 
-.card-content .title {
-    color: #777;
-    font-size: 18px;
-    margin: 10px 0;
+p {
+    margin: 0;
 }
-
-.card-content p {
-    color: #555;
-    font-size: 16px;
-    margin: 10px 0;
-}
-
-.contact-btn {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.contact-btn:hover {
-    background-color: #0056b3;
-}
-
-
 /*-----------------------------------------------------------------------------------------------------------------------------------*\
