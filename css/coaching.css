@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+
 body, h1, p, ul {
     margin: 0;
     padding: 0;
@@ -136,16 +139,17 @@ header {
 }
 
 .sidebar nav ul li img {
-    width: 40px;
-    height: 40px;
-    margin-right: 10px;
+    width: 50 px;
+    height: 50px;
+
     border-radius: 50%;
 }
 
 .sidebar nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
+    font-family: 'Jersey 10', sans-serif;
 }
 
 .sidebar nav ul li a:hover {
