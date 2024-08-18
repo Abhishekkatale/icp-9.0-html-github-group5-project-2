@@ -148,8 +148,8 @@ header {
 .sidebar nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 25px;
-    font-family: 'Jersey 10', sans-serif;
+    font-size: 19px;
+   
 }
 
 .sidebar nav ul li a:hover {
@@ -213,5 +213,27 @@ h2, h3 {
 
 p {
     margin: 0;
+    font-size: 12px;
 }
+
+
+.social-media {
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: end;
+    
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
+
 /*-----------------------------------------------------------------------------------------------------------------------------------*\
