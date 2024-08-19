@@ -105,358 +105,147 @@ header {
 
 
 
-
-
-
-
-
-.video-1{
-    margin-top: 35px;
-    margin-left: 15px;
-    margin-bottom: 20px;
+/* Video Section */
+.video-1 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80vh; /* Full viewport height to center vertically */
 }
 
-.heading-1{
+/* Headings */
+.heading-1, .heading-s, .city-headline {
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 50px;
     color: #232323;
     font-size: 20px;
-  }
-  .p
-  {
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 20px;
-    color: #222525;
-  }
+}
 
-  .card{
-   
+.heading-s, .city-headline {
+    background-color: #4e8cc7;
+    color: #001858;
+    padding: 20px;
+}
+
+/* Paragraphs */
+.p, .cricket-text, .cricket-text-1, .footboll-text, .text-3, .city-text {
+    text-align: center;
+    margin: 20px 50px;
+    color: #222525;
+    font-size: 15px;
+}
+
+/* Cards */
+.card {
     width: 250px;
     height: 250px;
-    border:  black 2px;
+    border: 2px solid black;
     border-radius: 20px;
     box-shadow: 0px 0px 7px 5px #335fff;
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    
+    margin: 5px 20px 20px 20px;
 }
 
-.img{
+.img {
     height: 180px;
     width: 190px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    margin-top: 0%;
+    padding: 20px 0 5px 0;
 }
 
-.btn1{
-    border-radius:4px 10px;
+/* Buttons */
+.btn1 {
+    border-radius: 4px 10px;
     color: black;
     background-color: #00a3cc;
     width: 140px;
-}
-.t1{
-    font-size: 13px;
-}
-.btn1:hover{
-    color: black;
-    background-color:#078080;
     font-family: cursive;
-    border-radius: 8px;
-
+    transition: background-color 0.3s, border-radius 0.3s;
 }
 
-.cards{
+.btn1:hover {
+    background-color: #078080;
+    border-radius: 8px;
+}
+
+/* Card Container */
+.cards {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     margin-top: 40px;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
+/* Common Box Styling */
+.box, .footboll-box, .swimming-1, .box-kabaddi, .batmintan {
+    background-color: rgb(33, 223, 223);
+    width: 100%;
+    max-width: 1250px;
+    margin: 50px auto 40px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 5px #3366ff;
+    padding: 20px;
+}
 
-.heading-s{
+/* Image and Text Alignment */
+.cricket, .footboll, .cricket-1, .footboll-img, .swimming, .swimming-box, .popular-cities, .align, .img-k {
     display: flex;
     justify-content: center;
-    background-color:  #4e8cc7;
-   
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
-.text-2{
+.cricket-img, .footboll-img, .cricket-img-1, .city-img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    display: block; /* Ensure it's treated as a block element */
+}
+
+/* Additional Styling for Football Image Container */
+.footboll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 100px;
+}
+
+.text-k, .text-3 {
+    margin: 40px;
     text-align: center;
-    border-bottom: 70px;
+    font-style: italic;
 }
 
-.cricket{
-    display: flex;
+/* Responsive Border Radius */
+.b-r-1 {
+    border-radius: 0 0 0 13px;
+}
+
+.b-r-2 {
+    border-radius: 0 13px 0 0;
+}
+
+.b-r-3 {
+    border-radius: 0 0 13px 0;
+}
+
+.b-r-4 {
+    border-radius: 13px 0 0 0;
+}
+
+/* Additional Improvements */
+.box-kabaddi {
     margin-top: 30px;
-justify-content: center;
-color: #222525;
 }
 
-.bor-1{
-    background-color:#809bff ;
-    width: 1000px;
-    margin-left: 140px;
- margin-bottom: 40px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 30px 5px rgb(120, 233, 248);
-    
-  
-}
-.footboll-img{
-    margin-top: 30px;
-    margin-left: 20px;
+.baner-img-2 {
+    margin: 30px 0 20px 0;
 }
 
-.box{
-    background-color: rgb(33, 223, 223) ;
-    width: 1250px;
-    margin: 40px;
- margin-top: 50px;
- margin-left: 40px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 30px 5px #3366ff;
-    border-bottom: 0px;
-
-}
-
-.cricket-img{
-    height: 300px;
-   
-    
-    margin-top: 80px;
-  
-}
-.cricket-text{
-    margin-top: 80px;
-    margin-right: 10px;
-  color: #222525;
-  font-size: 15px;
-}
-
-.cricket-1{
-    display: flex;
-    margin-top: 10px;
-justify-content: center;
-
-
-}
-.cricket-img-1{
-    height: 400px;
-    width: 350px;
-    margin-left: 80px;
-  margin-top: 50px;
-  margin-right: opx;
-  
-}
-.box-kabaddi{
-    background-color: rgb(33, 223, 223) ;
-    width: 1250px;
-    margin: 40px;
- margin-top: 50px;
- margin-left: 40px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 30px 5px #3366ff;
-    border-bottom: 0px;
-
-
-}
-.cricket-text-1{
-    margin-top: 20px;
-   margin-left: 25px;
-    font-size: 15px;
-   
-}
-.parent-city-card{
-    width:100%;
-    margin-top: 20px;
-}
-.popular-cities{  
-    display: flex;   
-    margin: 0px auto;
-    border-radius: 10px;
-    
- }
- 
- .align{
-     display: flex;
-     margin: 0px auto;
-    
- }
- 
- .city-img{
-     width: 300px;
-     height: 200px; 
-     border-radius: 10px;
- 
- }
- 
- .city{
-     padding: 10px;
-     background-color: #48bed3;
-        
- }
- 
- .city-text{
-     text-align: center;
-     margin: 2px;
-     font-weight: bold;
-     font-size: 20px;
-     color: #001858;
-    
- }
- .city-headline{
-    text-align: center; 
-    color: #001858;
-    background-color: #24b9df;
-    padding: 20px;
-    
- }
-
- .text-k{
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-top: 40px;
-    margin-bottom: 30px;
- }
- .img-k{
+.text-2 {
     text-align: center;
- 
-   
- }
-
- .footboll{
-    display: flex;
-    margin-top: 0px;
-justify-content: center;
+    margin: 30px 0;
 }
-
-.footboll-box{
-    background-color: rgb(33, 223, 223) ;
-    width: 1250px;
-    margin: 40px;
- margin-top: 50px;
- margin-left: 40px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 30px 5px #3366ff;
-    border-bottom: 0px;
-
-}
- 
-
-.footboll-text{
-    margin-top: 60px;
-    margin-right: 5px;
-
-  
-}
-
-.footboll-img{
- 
-    margin-left: 20px;
-  margin-bottom: 20px;
-  
-}
-
-
-.swimming{
-    width:100%;
-    margin-top: 20px;
-   
-}
-.swimming-box{  
-    display: flex;   
-    margin: 0px auto;
-    border-radius: 10px;
-
-    
- }
- .swimming-1{
-    background-color: rgb(33, 223, 223) ;
-    width: 1250px;
-    margin: 40px;
- margin-top: 50px;
- margin-left: 40px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 30px 5px #3366ff;
-    border-bottom: 0px;
- }
- 
-
- 
- .city-img{
-     width: 300px;
-     height: 200px; 
-     border-radius: 10px;
- 
- }
- 
- .city{
-     padding: 10px;
-     background-color: #48bed3;
-        
- }
- 
- .city-text{
-     text-align: center;
-     margin: 2px;
-     font-weight: bold;
-     font-size: 20px;
-     color: #001858;
-    
- }
- .city-headline{
-    text-align: center; 
-    color: #001858;
-    background-color: #1a5e6e;
-    padding: 20px;
-    
- }
- 
-.b-r-1{
-    border-radius: 0px 0px 0px 13px;
-}
-
-.b-r-2{
-    border-radius: 0px 13px 0px 0px;
-}
-
-.b-r-3{
-    border-radius: 0px 0px 13px 0px;
-}
-
-.b-r-4{
-    border-radius: 13px 0px 0px 0px;
-}
-
-.batmintan{
-    background-color: rgb(33, 223, 223) ;
-    width: 1250px;
-    margin: 40px;
- margin-top: 50px;
- margin-left: 40px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 30px 5px #3366ff;
-    border-bottom: 0px; 
-}
-.baner-img-2{
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-.text-3
-{
-    
-    margin-left:40px; 
-    margin-right: 40px;
-    font: italic;
-    margin-top: 20px;
-}
-/*-----------------------------------------------------------------------------------------------------------------------------------*\
-
-
