@@ -124,6 +124,9 @@ header {
 
 .container1{
 
-    position:absolute;
+   
+    height: 430px;
+    width: 1100px;
     
+    background-color: white;
 }
