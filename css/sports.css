@@ -102,4 +102,150 @@ header {
     opacity: 1;
 }
 
-/*-----------------------------------------------------------------------------------------------------------------------------------*\
+
+
+
+/* Video Section */
+.video-1 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80vh; /* Full viewport height to center vertically */
+}
+
+/* Headings */
+.heading-1, .heading-s, .city-headline {
+    text-align: center;
+    margin: 0 50px;
+    color: #232323;
+    font-size: 20px;
+}
+
+.heading-s, .city-headline {
+    background-color: #4e8cc7;
+    color: #001858;
+    padding: 20px;
+}
+
+/* Paragraphs */
+.p, .cricket-text, .cricket-text-1, .footboll-text, .text-3, .city-text {
+    text-align: center;
+    margin: 20px 50px;
+    color: #222525;
+    font-size: 15px;
+}
+
+/* Cards */
+.card {
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 5px #335fff;
+    text-align: center;
+    margin: 5px 20px 20px 20px;
+}
+
+.img {
+    height: 180px;
+    width: 190px;
+    padding: 20px 0 5px 0;
+}
+
+/* Buttons */
+.btn1 {
+    border-radius: 4px 10px;
+    color: black;
+    background-color: #00a3cc;
+    width: 140px;
+    font-family: cursive;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.btn1:hover {
+    background-color: #078080;
+    border-radius: 8px;
+}
+
+/* Card Container */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+/* Common Box Styling */
+.box, .footboll-box, .swimming-1, .box-kabaddi, .batmintan {
+    background-color: rgb(33, 223, 223);
+    width: 100%;
+    max-width: 1250px;
+    margin: 50px auto 40px auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 5px #3366ff;
+    padding: 20px;
+}
+
+/* Image and Text Alignment */
+.cricket, .footboll, .cricket-1, .footboll-img, .swimming, .swimming-box, .popular-cities, .align, .img-k {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.cricket-img, .footboll-img, .cricket-img-1, .city-img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
+    display: block; /* Ensure it's treated as a block element */
+}
+
+/* Additional Styling for Football Image Container */
+.footboll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 100px;
+}
+
+.text-k, .text-3 {
+    margin: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Responsive Border Radius */
+.b-r-1 {
+    border-radius: 0 0 0 13px;
+}
+
+.b-r-2 {
+    border-radius: 0 13px 0 0;
+}
+
+.b-r-3 {
+    border-radius: 0 0 13px 0;
+}
+
+.b-r-4 {
+    border-radius: 13px 0 0 0;
+}
+
+/* Additional Improvements */
+.box-kabaddi {
+    margin-top: 30px;
+}
+
+.baner-img-2 {
+    margin: 30px 0 20px 0;
+}
+
+.text-2 {
+    text-align: center;
+    margin: 30px 0;
+}
