@@ -102,4 +102,51 @@ header {
     opacity: 1;
 }
 
-/*-----------------------------------------------------------------------------------------------------------------------------------*\
+
+
+
+/*------------------------*/
+
+.about{
+    position:absolute;
+    top: 20%;
+    left: 24%;
+    color: black;
+  
+   
+}
+.text{
+    color: #bfbfbf;
+    margin-left: 382px;
+    margin-top: -570px;
+}
+
+.container1{
+    background-color: white;
+    color: black;
+    height: 475px;
+    width: 1815px;
+    position:absolute;
+    top: 34%;
+    
+    margin-left: -224px;
+}
+
+#img{
+    
+    margin-left: 610px;
+    margin-top: 40px;
+
+}
+.head{
+    margin-left: 1200px;
+    margin-top: -330px;
+    color: black;
+}
+
+.text1{
+    margin-left: 1200px;
+    margin-top: -8px;
+    color: #666666;
+
+}
