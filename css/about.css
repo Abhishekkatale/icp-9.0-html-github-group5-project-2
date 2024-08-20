@@ -4,7 +4,9 @@ body, h1, p, ul {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    
+        background-color: #fff;
+        font-family: Arial, sans-serif;
 }
 
 header {
@@ -106,47 +108,169 @@ header {
 
 
 /*------------------------*/
+/* About Section */
 
-.about{
-    position:absolute;
-    top: 20%;
-    left: 24%;
-    color: black;
-  
-   
-}
-.text{
-    color: #bfbfbf;
-    margin-left: 382px;
-    margin-top: -570px;
+.about-section {
+    background-image: url('./../images/bg2.jpg'); /* replace with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 600px;
+    color: white;
 }
 
-.container1{
-    background-color: white;
-    color: black;
-    height: 475px;
-    width: 1815px;
-    position:absolute;
-    top: 34%;
-    
-    margin-left: -224px;
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
-#img{
-    
-    margin-left: 610px;
-    margin-top: 40px;
-
-}
-.head{
-    margin-left: 1200px;
-    margin-top: -330px;
-    color: black;
+.content h2 {
+    color:white; /* Orange color */
+    font-size: 66px;
+    margin: 0;
 }
 
-.text1{
-    margin-left: 1200px;
-    margin-top: -8px;
-    color: #666666;
+.underline {
+    width: 200px;
+    height: 4px;
+    background-color: #FF9800;
+    margin: 10px auto;
+}
 
+.content p {
+    font-size: 16px;
+    color: #ffffff;
+    max-width: 600px;
+}
+
+.sidebar {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #1c1c2b;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding: 40px;
+}
+
+.image-section img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-section {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.text-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.text-section p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-section img {
+        margin-bottom: 20px;
+    }
+
+    .text-section {
+        margin-left: 0;
+    }
+}
+.about-section1 {
+    background-image: url('./../images/sport1.jpeg'); /* replace with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 400px; /* Adjust height to fit the rectangle shape */
+    color: white;
+    display: flex;
+    flex-direction: column; /* Arrange children elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center;
+}
+
+.content1 {
+    max-width: 80%; /* Adjust as needed to control content width */
+}
+
+.content1 h2 {
+    color: white;
+    font-size: 46px;
+    margin: 0;
+}
+
+.button1 {
+    margin-top: 20px; /* Adjust spacing between text and button */
+}
+
+.button1 button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #FF9800; /* Adjust button color if needed */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button1 button:hover {
+    background-color: #ff856e; /* Adjust button hover color if needed */
 }
