@@ -8,6 +8,7 @@ body {
 }
 
 header {
+    position: fixed;
     width: 100%;
     background-color: #18475e;
 }
@@ -107,6 +108,7 @@ header {
 
 /* Video Section */
 .video-1 {
+    padding-top: 120px;
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
