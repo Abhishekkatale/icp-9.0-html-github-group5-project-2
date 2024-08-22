@@ -120,8 +120,12 @@ header {
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
-    color: #232323;
+    color: #1f1135;
     font-size: 20px;
+    
+  }
+  .h22{
+    font: bold;
   }
   .p
   {
@@ -132,19 +136,7 @@ header {
     color: #222525;
   }
 
-  .card{
-   
-    width: 250px;
-    height: 250px;
-    border:  black 2px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 7px 5px #335fff;
-    text-align: center;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    
-}
+
 
 .img{
     height: 180px;
@@ -154,30 +146,11 @@ header {
     margin-top: 0%;
 }
 
-.btn1{
-    border-radius:4px 10px;
-    color: black;
-    background-color: #00a3cc;
-    width: 140px;
-}
+
 .t1{
     font-size: 13px;
 }
-.btn1:hover{
-    color: black;
-    background-color:#078080;
-    font-family: cursive;
-    border-radius: 8px;
 
-}
-
-.cards{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 40px;
-    justify-content: space-around;
-}
 
 
 .heading-s{
@@ -200,12 +173,12 @@ color: #222525;
 }
 
 .bor-1{
-    background-color:#809bff ;
+    background-color:#c1e2f1;
     width: 1000px;
     margin-left: 140px;
  margin-bottom: 40px;
     border-radius: 10px;
-    box-shadow: 0px 0px 30px 5px rgb(120, 233, 248);
+    box-shadow: 0px 0px 30px 5px #44a7d5;
     
   
 }
@@ -215,7 +188,7 @@ color: #222525;
 }
 
 .box{
-    background-color: rgb(33, 223, 223) ;
+    background-color: #eaf5fa ;
     width: 1250px;
     margin: 40px;
  margin-top: 50px;
@@ -226,6 +199,11 @@ color: #222525;
 
 }
 
+.p2{
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 15px;
+}
 .cricket-img{
     height: 300px;
    
@@ -256,7 +234,7 @@ justify-content: center;
   
 }
 .box-kabaddi{
-    background-color: rgb(33, 223, 223) ;
+    background-color:#c1e2f1 ;
     width: 1250px;
     margin: 40px;
  margin-top: 50px;
@@ -281,6 +259,7 @@ justify-content: center;
     display: flex;   
     margin: 0px auto;
     border-radius: 10px;
+   
     
  }
  
@@ -338,7 +317,7 @@ justify-content: center;
 }
 
 .footboll-box{
-    background-color: rgb(33, 223, 223) ;
+    background-color: #c1e2f1 ;
     width: 1250px;
     margin: 40px;
  margin-top: 50px;
@@ -378,7 +357,7 @@ justify-content: center;
     
  }
  .swimming-1{
-    background-color: rgb(33, 223, 223) ;
+    background-color: #c1e2f1 ;
     width: 1250px;
     margin: 40px;
  margin-top: 50px;
@@ -436,7 +415,7 @@ justify-content: center;
 }
 
 .batmintan{
-    background-color: rgb(33, 223, 223) ;
+    background-color: #c1e2f1 ;
     width: 1250px;
     margin: 40px;
  margin-top: 50px;
@@ -456,6 +435,88 @@ justify-content: center;
     margin-right: 40px;
     font: italic;
     margin-top: 20px;
+}
+
+
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.banner-image-card{
+    
+    height: 220px;
+    width:100%;
+    background-image: url("../images/banner-image-2.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.heading-sport{
+    font-size: 40PX;
+    font-weight: bold;
+    margin-top: 140PX;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: cursive;
+    
+    
+
+   
+}
+
+
+
+.sports-parent-logo-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px
+}
+
+.sports-card{
+    width:fit-content;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sport-logo{
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    display: block;
+    margin: 0px auto;
+    
+}
+
+.sport-logo-text{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-decoration:none;
+    color: black;
+}
+
+.sport-info-text{
+    background-color: #66b3ff;
+    width: 95%;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px auto;
+    border: 2px solid #ffaf4d;
+}
+
+.sport-text{
+    font-family: cursive;
+    color: black;
+    text-align: center;
 }
 /*-----------------------------------------------------------------------------------------------------------------------------------*\
 
