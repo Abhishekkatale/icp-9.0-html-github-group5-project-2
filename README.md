@@ -35,6 +35,7 @@ This project aims to create an engaging and user-friendly website for a sports c
 ## Pages
 
 ### Home
+(./images/Screenshot from 2024-08-22 18-35-52.png)
 The landing page provides an overview of the club and quick links to other sections.
 
 ### About Us
