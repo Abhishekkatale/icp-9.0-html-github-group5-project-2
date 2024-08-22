@@ -35,6 +35,8 @@ This project aims to create an engaging and user-friendly website for a sports c
 ## Pages
 
 ### Home
+<img src="./images/hom.png" alt="G5 Sport Club Logo">
+
 (./images/hom.png)
 The landing page provides an overview of the club and quick links to other sections.
 ### About Us
