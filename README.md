@@ -56,7 +56,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [your-abhishekkatale427@gmail.com](mailto:abhishekkatale427@gmail.com)
+Your Name - [abhishekkatale427@gmail.com](mailto:abhishekkatale427@gmail.com)
 
 Project Link: [https://g5sportsclub.vercel.app](https://g5sportsclub.vercel.app)
 ```
