@@ -191,3 +191,112 @@ body, html {
 .contact-info button:hover {
     background-color: #18475e;
 }
+
+.newsletter-section {
+    background-color: #3a749e;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.newsletter-section h2 {
+    color: #ffb600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.newsletter-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.subscribe-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-box input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.subscribe-box button {
+    background-color: #ffb600;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #18475e;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.footer-column {
+    max-width: 250px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    color: #ffb600;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-column a {
+    color: #ffb600;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: #ffb600;
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #ffb600;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}

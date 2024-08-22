@@ -101,5 +101,295 @@ header {
 .btn-primary.has-after:hover::after {
     opacity: 1;
 }
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-/*-----------------------------------------------------------------------------------------------------------------------------------*\
+.heading {
+    font-size: 36px;
+    color: #333;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.membership-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.membership-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url('./../images/M.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Ensure text color contrasts well with the background image */
+    position: relative;
+    overflow: hidden;
+}
+
+.membership-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text readability */
+    z-index: 1;
+}
+
+.membership-box > * {
+    position: relative;
+    z-index: 2; /* Ensures text is above the overlay */
+}
+
+.membership-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.membership-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.membership-box h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #ddd;
+}
+
+.btn1 {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn1:hover {
+    background-color: #0056b3;
+}
+
+
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.profile-pic img{
+    width: 50px;
+    height: 50px;
+}
+
+.stars {
+    color: #1a73e8;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.testimonial-card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.testimonial-card h4 {
+    font-weight: bold;
+    color: #333;
+}
+
+.newsletter-section {
+    background-color: #3a749e;
+    padding: 50px 20px; /* Added horizontal padding */
+    text-align: center;
+    width: 100%; /* Ensure the section spans full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.newsletter-section h2 {
+    color: #ffb600;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.newsletter-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff; /* Ensure text is visible against the background */
+}
+
+.subscribe-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.subscribe-box input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px; /* Added margin for better spacing on smaller screens */
+}
+
+.subscribe-box button {
+    background-color: #ffb600;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Added margin for better spacing on smaller screens */
+}
+
+.subscribe-box input[type="email"]::placeholder {
+    color: #aaa; /* Optional: Set placeholder color */
+}
+
+@media screen and (max-width: 600px) {
+    .subscribe-box {
+        flex-direction: column; /* Stack input and button vertically on small screens */
+    }
+
+    .subscribe-box input[type="email"],
+    .subscribe-box button {
+        width: 100%; /* Full width on small screens */
+        margin-right: 0; /* Remove right margin on small screens */
+    }
+}
+
+footer {
+    background-color: #18475e;
+    padding: 50px 20px; /* Adjusted padding */
+    color: #fff;
+    width: 100%; /* Ensure footer spans full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center content */
+}
+
+.footer-column {
+    max-width: 250px;
+    margin: 10px 0; /* Added margin to create space between columns */
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    color: #ffb600;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-column a {
+    color: #ffb600;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: #ffb600;
+    font-size: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Center content */
+    box-sizing: border-box; /* Ensure padding is included */
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-bottom a {
+    color: #ffb600;
+    text-decoration: none;
+    margin-left: 10px; /* Added spacing between links */
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
